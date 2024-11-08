@@ -1,2 +1,7 @@
-global:
-  domain: argocd.ricardllop.com
+argo-cd:
+  crds:
+    install: true
+    keep: false
+  namespaceOverride: oci-argo-cd
+  global:
+    domain: argocd.ricardllop.com
