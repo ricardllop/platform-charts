@@ -1,5 +1,7 @@
+namespace: cert-manager
+
 cert-manager:
   installCRDs: true
 
 clusterIssuer:
-  email: "your-email@ricardllop.com" # Replace with your actual email
+  email: ricardlloppalou@gmail.com
